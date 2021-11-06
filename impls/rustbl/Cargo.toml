@@ -1,0 +1,11 @@
+[package]
+name = "rustbl"
+version = "0.1.0"
+authors = ["root"]
+
+[dependencies]
+rustyline = "5.0.3"
+
+[[bin]]
+name = "step0_repl"
+path = "step0_repl.rs"
